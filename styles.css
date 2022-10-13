@@ -112,3 +112,46 @@ span:hover {
     /* font-size: 10px; */
     margin: 0px;
 }
+@media screen and (min-width:375px) and (max-width:1000px) {
+    body{
+        padding: 0;
+        margin: 0;
+        font-size: 13px;
+    }
+    .rating-card{
+        max-width: 300px;
+        margin: 70px 20px;
+        padding: 1rem 1rem;
+    }
+    .submit{
+        padding: 1rem 7rem;
+    }
+    .span{
+        padding: 1rem 1.1rem;
+        margin: 10px 3px;
+        border-radius: 5rem;
+    }
+    span:hover {
+        color: var(--white);
+        background-color: var(--mediumGrey);
+        border: 1px solid var(--mediumGrey);
+        font-weight: bold;
+    }
+    .submit:hover{
+        color: var(--primary-color);
+        background-color: var(--white);
+        border: 1px solid var(--white);
+    }
+    .thank-you{
+        max-width: 300px;
+        margin: 70px 20px;
+        padding: 1rem 1rem;
+    }
+    .selected{
+        color: var(--white);
+        background-color: var(--primary-color);
+        border: 1px solid var(--primary-color);
+        font-weight: bold;
+    }
+
+}
