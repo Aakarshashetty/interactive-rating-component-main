@@ -21,13 +21,13 @@ h2{
     color: var(--white);
 }
 p,span{
-    color: var(--mediumGrey);
+    color: var(--lightGrey);
 }
 .rating-card{
-    background-color: var(--darkBlue);
-    max-width: 500px;
-    margin: 150px 450px;
-    padding: 2rem;
+    background-color: hsl(220, 15%, 15%);
+    max-width: 400px;
+    margin: 100px 450px;
+    padding: 2rem 1rem;
     border-radius: 1.5rem;
 }
 .submit{
@@ -36,12 +36,79 @@ p,span{
     margin-top: 30px;
 }
 span{
-    padding: 1.5rem;
+    padding: 1.2rem 1.5rem;
     margin: 10px 5px;
-    border: 1px solid var(--veryDarkBlue);
-    border-radius: 4rem
+    border: 1px solid var(--darkBlue);
+    background-color: var(--darkBlue);
+    border-radius: 7rem;
+    cursor: pointer;
+   
 }
 .rating{
-    margin: 10px;
-    padding: 0.3rem 0rem;
+    margin: 50px 17px;
+    padding: 0rem 0rem;
+}
+.rating-card p{
+    margin: 10px 0px;
+}
+.submit{
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    padding: 1rem 10rem;
+    color: var(--white);
+    font-size: 15px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.rating-card img{
+    margin: 7px 12px;
+    border: 1px solid var(--darkBlue);
+    background-color: var(--darkBlue);
+    padding: 1rem;
+    border-radius: 5rem;
+}
+span:hover {
+    color: var(--white);
+    background-color: var(--mediumGrey);
+    border: 1px solid var(--mediumGrey);
+    font-weight: bold;
+}
+.selected{
+    color: var(--white);
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    font-weight: bold;
+}
+.submit:hover{
+    color: var(--primary-color);
+    background-color: var(--white);
+    border: 1px solid var(--white);
+}
+.disabled{
+    pointer-events: none;
+}
+.thank-you{
+    background-color: hsl(220, 15%, 15%);
+    max-width: 340px;
+    margin: 100px 490px;
+    padding: 2rem 1rem;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+.user-rate{
+    color: var(--primary-color);
+    border: 1px solid var(--darkBlue);
+    background-color: var(--darkBlue);
+    display: inline-block;
+    margin: 15px 20px;
+    padding: 0.3rem 1rem;
+    border-radius: 2rem;
+    font-size: 14px;
+}
+.attribution{
+    color: var(--primary-color);
+    /* font-size: 10px; */
+    margin: 0px;
 }
